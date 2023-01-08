@@ -1,0 +1,22 @@
+{
+  "name": "lesson8",
+  "version": "1.0.0",
+  "description": "Mail server",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "start": "nodemon"
+  },
+  "author": "Varfolomeus",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.20.1",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "nodemailer": "^6.8.0",
+    "save": "^2.9.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  }
+}
